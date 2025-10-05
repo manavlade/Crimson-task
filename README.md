@@ -87,12 +87,12 @@ Clean, elegant, and optimized for desktop and mobile.
 ### 1. Clone the Repository
 
 npm install
-# or
+ or
 yarn install
 
 
 npm run dev
-# or
+ or
 yarn dev
 
 Then open http://localhost:3000 in your browser.
