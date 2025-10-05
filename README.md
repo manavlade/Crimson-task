@@ -82,27 +82,6 @@ Clean, elegant, and optimized for desktop and mobile.
 
 ---
 
-## 📁 Folder Structure
-
-├── app/
-│ ├── page.tsx # Main page displaying papers
-│ ├── components/ # Reusable UI components
-│ │ ├── PaperCard.tsx
-│ │ ├── SearchBar.tsx
-│ │ ├── SortControls.tsx
-│ │ ├── Pagination.tsx
-│ │ └── PaperModal.tsx
-│ ├── styles/ # SCSS Modules
-│ │ ├── globals.scss
-│ │ └── card.module.scss
-│ └── utils/
-│ └── api.ts # Fetch functions
-├── public/ # Static assets (images, logos)
-├── next.config.js
-├── tsconfig.json
-├── package.json
-└── README.md
-
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
