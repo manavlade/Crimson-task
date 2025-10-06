@@ -12,10 +12,9 @@ The project is built with a focus on **performance**, **clean architecture**, **
 | Framework | [Next.js 14](https://nextjs.org/) |
 | Language | TypeScript |
 | Styling | SCSS Modules |
-| API Handling | Fetch API / Axios |
-| UI Enhancements | Framer Motion *(optional)* |
+| API Handling | Fetch API  |
 | State Management | React Hooks |
-| Hosting | Vercel (Recommended) |
+| Hosting | Vercel |
 
 ---
 
@@ -79,6 +78,12 @@ Clean, elegant, and optimized for desktop and mobile.
 - Skeleton loaders for improved UX.
 - Debounced search to prevent excessive re-renders.
 - Download button for available PDFs.
+
+### 🔹 8. API calling
+- API calling using server components (app/api/getpaper/route.ts).
+
+### 🔹 9. Error handling
+- Error handling using error boundaries.
 
 ---
 

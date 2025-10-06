@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Navbar = () => {
     return (
         <>
@@ -6,9 +8,9 @@ const Navbar = () => {
                     <div className="navbar-brand">MySite</div>
                     <button className="navbar-toggle" id="toggle-button">&#9776;</button>
                     <ul className="navbar-menu" id="navbar-menu">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Impact Factor</a></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/">About</Link></li>
+                        <li><Link href="/">Impact Factor</Link></li>
                     </ul>
                 </nav>
 
